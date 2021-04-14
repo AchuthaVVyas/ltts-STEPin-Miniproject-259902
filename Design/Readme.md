@@ -1,8 +1,8 @@
 # High level Design 
-   | add record |
+   | add record   |
    |delete record |
-   -fee due
-   -history
+   | fee due      |
+   | history      |
   
 # Low level Design
    -add record - add name , amount , date , payee
