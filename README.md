@@ -1,5 +1,5 @@
-# ltts-STEPin-Miniproject-259902
-Hello
+## ltts-STEPin-Miniproject-259902
+# School Billing System
 
 ## Folder Structure
 Folder             | Description
