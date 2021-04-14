@@ -1,6 +1,6 @@
 # High level Design 
    -add record
-   -delete record
+   --delete record
    -fee due
    -history
   
