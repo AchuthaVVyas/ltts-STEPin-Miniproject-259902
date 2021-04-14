@@ -1,13 +1,13 @@
 # ltts-STEPin-Miniproject-259902
-hello
+Hello
 
 ## Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
-`1_Requirements`   | Documents detailing requirements and research
-`2_Design`         | Documents specifying design details
-`3_Implementation` | All code and documentation
-`4_Test_plan`      | Documents with test plans and procedures
+Requirements   | Documents detailing requirements and research
+Design        | Documents specifying design details
+Implementation | All code and documentation
+Test_plan      | Documents with test plans and procedures
 
 ## Contributors List and Summary
 
