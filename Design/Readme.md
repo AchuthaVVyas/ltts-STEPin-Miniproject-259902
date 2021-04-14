@@ -1,4 +1,6 @@
 # High level Design 
+   | Feature      |
+   |--------------|
    | add record   |
    |delete record |
    | fee due      |
