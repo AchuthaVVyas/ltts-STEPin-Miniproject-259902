@@ -15,14 +15,5 @@ Test_plan      | Documents with test plans and procedures
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`ABC` | 12345678  | Feature A, B etc    | X No     | X No   |X No   |X No     
-`DEF` | 12345678  | Feature C, D etc    | X No     | X No   |X No   |X No     
-
-## Challenges Faced and How Was It Overcome
-
-1. ABC
-2. BCD
-3. ...
-4. ...
-
-https://app.codacy.com/gh/AchuthaVVyas/ltts-STEPin-Miniproject-259902/dashboard
+1 | Achutha V Vyas  | Search day , month and add notes    | X No     | X No   |X No   |X No     
+     
