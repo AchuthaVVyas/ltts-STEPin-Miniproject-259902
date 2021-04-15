@@ -1,5 +1,7 @@
 ## ltts-STEPin-Miniproject-259902
 # Calendar Application
+![image](https://user-images.githubusercontent.com/80733877/114825930-7078c780-9de4-11eb-87e1-7ab5ccec5162.png)
+
 
 ## Folder Structure
 Folder             | Description
