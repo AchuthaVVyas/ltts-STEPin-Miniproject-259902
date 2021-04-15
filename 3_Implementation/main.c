@@ -1,8 +1,12 @@
-#include "cal.h"
+#include<stdio.h>
+#include<conio.h>
+#include<windows.h>
+#include "calendar_operations.h"
+
 
 int main(){
     ClearConsoleToColors(15, 1);
-    SetConsoleTitle("Calender Project - Programming-technique.blogspot.com");
+    SetConsoleTitle("Calender Project");
     int choice;
     char ch = 'a';
     while(1){
