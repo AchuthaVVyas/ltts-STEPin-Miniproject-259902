@@ -1,4 +1,7 @@
 ## ltts-STEPin-Miniproject-259902
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f1af7c3793494002860fcad84480ae3a)](https://app.codacy.com/gh/AchuthaVVyas/ltts-STEPin-Miniproject-259902?utm_source=github.com&utm_medium=referral&utm_content=AchuthaVVyas/ltts-STEPin-Miniproject-259902&utm_campaign=Badge_Grade_Settings)
+
 # Calendar Application
 ![image](https://user-images.githubusercontent.com/80733877/114825930-7078c780-9de4-11eb-87e1-7ab5ccec5162.png)
 
