@@ -1,5 +1,5 @@
 ## ltts-STEPin-Miniproject-259902
-# School Billing System
+# Calendar Application
 
 ## Folder Structure
 Folder             | Description
