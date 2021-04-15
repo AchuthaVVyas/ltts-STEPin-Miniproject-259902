@@ -2,6 +2,8 @@
 # Calendar Application
 ![image](https://user-images.githubusercontent.com/80733877/114825930-7078c780-9de4-11eb-87e1-7ab5ccec5162.png)
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/727efcd4c4b34d9ba5678381bb7e872e)](https://www.codacy.com/gh/AchuthaVVyas/ltts-STEPin-Miniproject-259902/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AchuthaVVyas/ltts-STEPin-Miniproject-259902&amp;utm_campaign=Badge_Grade)
+
 
 ## Folder Structure
 Folder             | Description
