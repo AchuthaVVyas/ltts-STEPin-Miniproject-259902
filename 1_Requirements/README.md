@@ -19,31 +19,30 @@ The Roman calendar was reformed by Julius Caesar in 46 BC. The Julian calendar w
 
 The Islamic calendar is based on the prohibition of intercalation (nasi') by Muhammad, in Islamic tradition dated to a sermon held on 9 Dhu al-Hijjah AH 10 (Julian date: 6 March 632). This resulted in an observation-based lunar calendar that shifts relative to the seasons of the solar year.
 
+## Objective
+This project gives a simple application to search any day month and year , also add events to it.
+
 
 ## SWOT ANALYSIS
 
+![image](https://user-images.githubusercontent.com/80733877/114916953-0b07f380-9e43-11eb-9cec-12df9390a2c8.png)
 
 # 4W&#39;s and 1&#39;H
+Who:
+Calendar is an application which is used to know the Date,Day and an year .It is used by any human being in any time knowing/tracking purpose.
 
-## Who:
+What:
+It is helpful in order to check the data of any date,day,month and year.And can add the note to a particular date in an year.
 
-**TBD**
+When:
+It can be to set the timeline of our personal and professional tasks.
 
-## What:
+Where:
+It is used in organizing the timeline of any task.For example about projects,constructions,hospitals,etc..
 
-**TBD**
+How:
+This project is implemented to get the data of a particular day by giving year as an input.
 
-## When:
-
-**TBD**
-
-## Where:
-
-**TBD**
-
-## How:
-
-**TBD**
 
 # Detail requirements
 ## High Level Requirements:
