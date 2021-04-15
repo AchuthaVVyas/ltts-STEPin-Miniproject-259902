@@ -25,7 +25,8 @@ This project gives a simple application to search any day month and year , also 
 
 ## SWOT ANALYSIS
 
-![image](https://user-images.githubusercontent.com/80733877/114916953-0b07f380-9e43-11eb-9cec-12df9390a2c8.png)
+![image](https://user-images.githubusercontent.com/80733877/114917622-ca5caa00-9e43-11eb-9c37-efddee5c527f.png)
+
 
 # 4W&#39;s and 1&#39;H
 Who:
