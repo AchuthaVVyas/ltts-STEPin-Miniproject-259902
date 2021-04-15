@@ -3,11 +3,12 @@ PROJECT_NAME = cprogram
 
 # All source code files
 SRC = main.c\
-src/add_new_book.c\
-src/discard_a_book.c\
-src/find_a_book.c\
-src/update_book.c\
-src/view_book.c
+src/addnote_shownote.c\
+src/clscon_Setcon_chkleap.c\
+src/getday_chknote_prtmon.c\
+src/getname_prtdate_dayno.c\
+src/gotooxy_setcolor_clearcolor.c\
+src/incmon_decmon_getdays.c
 
 TEST_SRC = src/add_new_book.c\
 src/discard_a_book.c\
