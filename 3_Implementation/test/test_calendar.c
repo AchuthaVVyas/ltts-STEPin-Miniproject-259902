@@ -1,4 +1,4 @@
-#include"library_management.h"
+#include"calendar_operations.h"
 #include"unity_internals.h"
 #include"unity.h"
 
@@ -7,35 +7,30 @@ void setUp(){}
 void tearDown(){}
 
 
-void test_enter_new_record(void){
-    TEST_ASSERT_EQUAL(pass,enter_new_record(900, "Wings of freedom"));
+void test_getName(void){
+    TEST_ASSERT_EQUAL("Monday",*getName(1));
 }
 
-void test_view_all_records(void){
-    TEST_ASSERT_EQUAL(pass,view_all_records());
+void test_check_leapYear(void){
+    TEST_ASSERT_EQUAL(1,check_leapYear(2016));
 }
 
-void test_view_a_record(void){
-    TEST_ASSERT_EQUAL(fail,view_a_record(-2));
-    TEST_ASSERT_EQUAL(pass,view_a_record(900));
+void test_getNumberOfDays(void){
+    TEST_ASSERT_EQUAL(30,getNumberOfDays(4,2021));
 }
 
-void test_update_record(void){
-    TEST_ASSERT_EQUAL(pass,update_record(900, "issued", "21/01/21", "31/01/31", "Anupam","Gupta", 123));
+void test_getDayNumber(void){
+    TEST_ASSERT_EQUAL(21,getDayNumber(21,04,2021));
 }
 
-void test_delete_record(void){
-    TEST_ASSERT_EQUAL(pass,delete_record(900));
-}
 
-int main(){
+int test_main(void){
     UNITY_BEGIN();
 
-    RUN_TEST(test_enter_new_record);
-    RUN_TEST(test_view_a_record);
-    RUN_TEST(test_update_record);
-    RUN_TEST(test_delete_record);
-    RUN_TEST(test_view_all_records);
-    
+    RUN_TEST(test_getName);
+    RUN_TEST(test_check_leapYear);
+    RUN_TEST(test_getNumberOfDays);
+    RUN_TEST(test_getDayNumber);
+
     return UNITY_END();
 }
