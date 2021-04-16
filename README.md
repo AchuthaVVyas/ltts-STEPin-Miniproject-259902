@@ -6,6 +6,8 @@
 
 [![Code Quality - Static Code - Cppcheck](https://github.com/AchuthaVVyas/ltts-STEPin-Miniproject-259902/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/AchuthaVVyas/ltts-STEPin-Miniproject-259902/actions/workflows/cppcheck.yml)
 
+[![Contribution Check - Git Inspector](https://github.com/AchuthaVVyas/ltts-STEPin-Miniproject-259902/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/AchuthaVVyas/ltts-STEPin-Miniproject-259902/actions/workflows/gitinspector.yml)
+
 # Calendar Application
 ![image](https://user-images.githubusercontent.com/80733877/114825930-7078c780-9de4-11eb-87e1-7ab5ccec5162.png)
 
