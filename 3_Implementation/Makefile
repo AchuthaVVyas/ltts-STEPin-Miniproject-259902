@@ -1,30 +1,26 @@
-# Name of the project
-PROJECT_NAME = cprogram
+PROJ_NAME = Calendar
+TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
-# All source code files
-SRC = main.c\
-src/addnote_shownote.c\
+
+SRC =  src/addnote_shownote.c\
 src/clscon_Setcon_chkleap.c\
 src/getday_chknote_prtmon.c\
 src/getname_prtdate_dayno.c\
 src/gotooxy_setcolor_clearcolor.c\
 src/incmon_decmon_getdays.c
 
-TEST_SRC = src/add_new_book.c\
-src/discard_a_book.c\
-src/find_a_book.c\
-src/update_book.c\
-src/view_book.c\
+hos_SRC = test_calendar.c
+
+TEST_SRC = test/test_calendar.c\
 unity/unity.c\
-test/test_library.c
+main.c
 
-# Path to header files
-INC_HEADER = inc
-INC_TEST = unity
+INC_H = inc
+INC_T = unity
+INC_TE=test
 
-#To check if the OS is windows or linux and set the executable file extension and delete command accordingly
 ifdef OS
-   RM = del /q
+   RM = del 
    FixPath = $(subst /,\,$1)
    EXEC = exe
 else
@@ -35,33 +31,44 @@ else
    endif
 endif
 
-TEST_OUTPUT = Test_$(PROJECT_NAME).$(EXEC)
+.PHONY: run clean test doc all
 
 all:
-	gcc -I $(INC_HEADER) $(SRC) -o $(call FixPath, ./$(PROJECT_NAME).$(EXEC))
-
-run: all
-	$(call FixPath, ./$(PROJECT_NAME).$(EXEC))
-
+	gcc -I $(INC_H) $(SRC) main.c -o $(call FixPath,$(PROJ_NAME).$(EXEC))
+	
+run:
+	$(call FixPath,$(PROJ_NAME).$(EXEC))
 test:
-	gcc -I $(INC_HEADER) -I $(INC_TEST) $(TEST_SRC) -o $(call FixPath, ./$(TEST_OUTPUT))
-	$(call FixPath, ./$(TEST_OUTPUT))
+	gcc -I $(INC_H) -I $(INC_T) -I $(INC_TE) $(TEST_SRC) $(SRC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
+	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
 
-coverageCheck:
-	gcc -fprofile-arcs -ftest-coverage -I $(INC_HEADER) -I $(INC_TEST) $(TEST_SRC) -o $(call FixPath, $(TEST_OUTPUT))
-	$(call FixPath, ./$(TEST_OUTPUT))
-	gcov -a $(call FixPath, ./test_library.c) $(call FixPath, ./add_new_book.c) $(call FixPath, ./discard_a_book.c) $(call FixPath, ./find_a_book.c) $(call FixPath, ./update_book.c) $(call FixPath, ./view_book.c)
-
-cppcheck:
-	cppcheck --enable=all -I $(INC_HEADER) $(SRC)
-
-valgrind:
-	gcc -I $(INC_HEADER) -I $(INC_TEST) $(TEST_SRC) -o $(call FixPath, ./$(TEST_OUTPUT))
-	valgrind ./$(TEST_OUTPUT)
-
-clean:
-	gcc -fprofile-arcs -ftest-coverage -I $(INC_HEADER) -I $(INC_TEST) $(TEST_SRC) -o $(call FixPath, $(TEST_OUTPUT))
+coverage:
+	cp test/test_calendar.c .
+	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) -I $(INC_TE) unity/unity.c test/test_calendar.c main.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC))
+	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC))
+	gcov -a $(hos_SRC)
 	$(RM) *.$(EXEC)
 	$(RM) *.gcda
 	$(RM) *.gcno
-	$(RM) *.gcov
+	$(RM) *.c.gcov
+	$(RM) *.DAT	
+	$(RM) test_calendar.c
+
+
+cppcheck:
+	cppcheck --enable=all $(SRC) main.c
+debug:
+	gcc -I $(INC_H) $(SRC) main.c -g -o $(PROJ_NAME).$(EXEC)
+	gdb $(PROJ_NAME).$(EXEC)
+
+valgrind:
+	valgrind ./$(TEST_PROJ_NAME).$(EXEC)
+
+
+clean:
+	
+	$(RM) *.DAT
+	$(RM) *.$(EXEC)
+	$(RM) *.gcda
+	$(RM) *.gcno
+	$(RM) *.c.gcov
