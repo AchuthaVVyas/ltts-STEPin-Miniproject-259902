@@ -1,6 +1,6 @@
 ## ltts-STEPin-Miniproject-259902
 
-## My code will only work in windows as i have use windows.h and used functions from it.
+## My code will only work in windows (I have used some functions from windows.h header file).
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f1af7c3793494002860fcad84480ae3a)](https://app.codacy.com/gh/AchuthaVVyas/ltts-STEPin-Miniproject-259902?utm_source=github.com&utm_medium=referral&utm_content=AchuthaVVyas/ltts-STEPin-Miniproject-259902&utm_campaign=Badge_Grade_Settings)
 
