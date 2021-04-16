@@ -4,6 +4,8 @@
 
 [![CI](https://github.com/AchuthaVVyas/ltts-STEPin-Miniproject-259902/actions/workflows/main.yml/badge.svg)](https://github.com/AchuthaVVyas/ltts-STEPin-Miniproject-259902/actions/workflows/main.yml)
 
+[![Code Quality - Static Code - Cppcheck](https://github.com/AchuthaVVyas/ltts-STEPin-Miniproject-259902/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/AchuthaVVyas/ltts-STEPin-Miniproject-259902/actions/workflows/cppcheck.yml)
+
 # Calendar Application
 ![image](https://user-images.githubusercontent.com/80733877/114825930-7078c780-9de4-11eb-87e1-7ab5ccec5162.png)
 
