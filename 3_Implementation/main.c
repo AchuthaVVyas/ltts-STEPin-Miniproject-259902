@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include <stdlib.h>
-#include <stdlib.h>
+#include <windows.h>
 #include "calendar_operations.h"
 
 
