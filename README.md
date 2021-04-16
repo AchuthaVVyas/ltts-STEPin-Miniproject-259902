@@ -1,5 +1,7 @@
 ## ltts-STEPin-Miniproject-259902
 
+My code will only work in windows as i have use windows.h and used functions from it.
+
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f1af7c3793494002860fcad84480ae3a)](https://app.codacy.com/gh/AchuthaVVyas/ltts-STEPin-Miniproject-259902?utm_source=github.com&utm_medium=referral&utm_content=AchuthaVVyas/ltts-STEPin-Miniproject-259902&utm_campaign=Badge_Grade_Settings)
 
 [![CI](https://github.com/AchuthaVVyas/ltts-STEPin-Miniproject-259902/actions/workflows/main.yml/badge.svg)](https://github.com/AchuthaVVyas/ltts-STEPin-Miniproject-259902/actions/workflows/main.yml)
@@ -24,5 +26,5 @@ Test_plan      | Documents with test plans and procedures
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-1 | Achutha V Vyas  | Search day , month and add notes    | X No     | X No   |X No   |X No     
+1 | Achutha V Vyas  | Search day , month and add notes    | X    | X    |4   |4    
      
