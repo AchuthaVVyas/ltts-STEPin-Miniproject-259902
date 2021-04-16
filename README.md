@@ -18,7 +18,7 @@
 Folder             | Description
 -------------------| -----------------------------------------
 Requirements   | Documents detailing requirements and research
-Design        | Documents specifying design details
+Architecture       | Documents specifying design details
 Implementation | All code and documentation
 Test_plan      | Documents with test plans and procedures
 
