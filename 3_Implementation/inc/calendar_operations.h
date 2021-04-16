@@ -13,7 +13,6 @@
 #define __CALENDAR_OPERATIONS_H__
 
 #include<stdio.h>
-#include<conio.h>
 #include<windows.h>
 
 struct Date{
